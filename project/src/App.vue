@@ -1,30 +1,38 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import MainLinkButton from './components/MainLinkButton.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <div class="main-container">
+      <MainLinkButton title = "Przemysł Wysokich Technologii W Polsce" grid_area_id = "title" background_color = "#003300"/>
+      <MainLinkButton title = "Test" grid_area_id = "test" background_color = "#993399"/>
+      <MainLinkButton title = "Test2" grid_area_id = "test2" background_color = "#cc0000"/>
+      <MainLinkButton title = "Test3" grid_area_id = "test3" background_color = "#ff9900"/>
+      <MainLinkButton title = "Test4" grid_area_id = "test4" background_color = "#666699"/>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
     </div>
   </header>
-
-  <RouterView v-slot="{ Component }">
-    <Transition name="fade" mode="out-in">
-      <component :is="Component"/>
-    </Transition>
-  </RouterView>
 </template>
 
 <style scoped>
+
+.main-container {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+
+  grid-template-areas: 
+    "test2 test4 test"
+    "test2 title test"
+    "test3 test3 test";
+
+}
+
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -59,28 +67,6 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
-
-
-.fade-enter-active
-{
-  animation: appearing 1s linear 1 both normal;
-}
-.fade-leave-active {
-  animation: appearing 1s linear 1 both reverse;
-}
-
-@keyframes appearing {
-  0%{
-    opacity: 0.0;
-  }
-
-  100%{
-    opacity: 1.0;
-  }
-}
-
-
 
 @media (min-width: 1024px) {
   header {
