@@ -1,9 +1,36 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import { RouterLink, RouterView } from 'vue-router'
+import MainLinkButton from '../components/MainLinkButton.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+
+  <div class="main-container">
+    <MainLinkButton title = "Przemysł Wysokich Technologii W Polsce" grid_area_id = "title" background_color = "#003300"/>
+    <MainLinkButton title = "Test" grid_area_id = "test" background_color = "#993399"/>
+    <MainLinkButton title = "Test2" grid_area_id = "test2" background_color = "#cc0000"/>
+    <MainLinkButton title = "Test3" grid_area_id = "test3" background_color = "#ff9900"/>
+    <MainLinkButton title = "Test4" grid_area_id = "test4" background_color = "#666699"/>
+  </div>
+
 </template>
+
+<style scoped>
+
+.main-container {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+
+  grid-template-areas: 
+    "test2 test4 test"
+    "test2 title test"
+    "test3 test3 test";
+
+}
+
+
+
+</style>
