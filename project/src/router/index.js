@@ -22,6 +22,12 @@ const router = createRouter({
       name: 'test',
 
       component: () => import('../views/TestView.vue')
+    },
+    {
+      path: '/izera',
+      name: 'izera',
+
+      component: () => import('../views/IzeraView.vue')
     }
   ]
 })
