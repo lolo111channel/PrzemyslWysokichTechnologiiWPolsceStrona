@@ -5,14 +5,16 @@ import MainLinkButton from './components/MainLinkButton.vue';
 
 <template>
   <header>
-    <RouterView/>
+    <RouterView class = "router-view"/>
   </header>
 </template>
 
 <style scoped>
 
+
+
 .main-container {
-  width: 100%;
+  width: auto;
 
   display: grid;
   grid-template-columns: auto auto auto;
