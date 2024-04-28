@@ -9,7 +9,7 @@
     <ContentComponent 
         title = "Izera" 
         :sources = "['https://izera.pl/','Izera.pl']" 
-        :images = "['/src/assets/images/izera/izera_02.jpg','/src/assets/images/izera/izera_03.jpg','/src/assets/images/izera/izera_03.jpg','/src/assets/images/izera/izera_04.jpg']"
+        :images = "['/src/assets/images/izera/izera_02.jpg','/src/assets/images/izera/izera_03.jpg','/src/assets/images/izera/izera_04.jpg','/src/assets/images/izera/izera_05.jpg']"
         :buttons_name = "['Strona główna','Test1','Test2','Test3']"
         :buttons_link = "['/','about','test','/']"
     >
