@@ -28,6 +28,12 @@ const router = createRouter({
       name: 'izera',
 
       component: () => import('../views/IzeraView.vue')
+    },
+    {
+      path: '/dolinalotnicza',
+      name: 'dolinalotnicza',
+
+      component: () => import('../views/AirValleyView.vue')
     }
   ]
 })
