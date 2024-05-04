@@ -1,6 +1,10 @@
 <script setup>
     import { RouterLink } from 'vue-router';
     import ContentComponent from '../components/ContentComponent.vue';
+    import EasyRobots01 from "/src/assets/images/easyrobots/01.png";
+    import EasyRobots02 from "/src/assets/images/easyrobots/02.jpg";
+    import EasyRobots03 from "/src/assets/images/easyrobots/03.jpg";
+    import EasyRobots04 from "/src/assets/images/easyrobots/04.jpg";
 </script>
 
 
@@ -9,7 +13,7 @@
     <ContentComponent 
         title = "Easy Robots" 
         :sources = "['https://easyrobots.pl/o-nas/','EasyRobots.pl']" 
-        :images = "['/src/assets/images/easyrobots/01.png','/src/assets/images/easyrobots/02.jpg','/src/assets/images/easyrobots/03.jpg','/src/assets/images/easyrobots/04.jpg']"
+        :images = "[EasyRobots01,EasyRobots02,EasyRobots03,EasyRobots04]"
         :buttons_name = "['Strona główna','Izera','Dolina Lotnicza','SMR']"
         :buttons_link = "['/','/izera','/dolinalotnicza','/smr']"
     >

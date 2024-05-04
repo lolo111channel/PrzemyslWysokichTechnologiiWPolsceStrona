@@ -1,6 +1,10 @@
 <script setup>
     import { RouterLink } from 'vue-router';
     import ContentComponent from '../components/ContentComponent.vue';
+    import Izera01 from "/src/assets/images/izera/izera_02.jpg";
+    import Izera02 from "/src/assets/images/izera/izera_03.jpg";
+    import Izera03 from "/src/assets/images/izera/izera_04.jpg";
+    import Izera04 from "/src/assets/images/izera/izera_05.jpg";
 </script>
 
 
@@ -9,7 +13,7 @@
     <ContentComponent 
         title = "Izera" 
         :sources = "['https://izera.pl/','Izera.pl']" 
-        :images = "['/src/assets/images/izera/izera_02.jpg','/src/assets/images/izera/izera_03.jpg','/src/assets/images/izera/izera_04.jpg','/src/assets/images/izera/izera_05.jpg']"
+        :images = "[Izera01,Izera02,Izera03,Izera04]"
         :buttons_name = "['Strona główna','Dolina Lotnicza','SMR','Easy Robots']"
         :buttons_link = "['/','/dolinalotnicza','/smr','/easyrobots']"
     >

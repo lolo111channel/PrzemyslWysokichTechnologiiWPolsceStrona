@@ -45,22 +45,7 @@
         <div class="column-container">
             <div class="images">
 
-                <div>
-                    <div class="image">
-                        <img src="../assets/images/izera/izera_02.jpg">
-                    </div>
-                    <div class="image">
-                        <img src="../assets/images/izera/izera_03.jpg">
-                    </div>
-                </div>
-                <div>
-                    <div class="image">
-                        <img src="../assets/images/izera/izera_04.jpg">
-                    </div>
-                    <div class="image">
-                        <img src="../assets/images/izera/izera_05.jpg">
-                    </div>
-                </div>
+            
 
             </div>
 

@@ -1,6 +1,10 @@
 <script setup>
     import { RouterLink } from 'vue-router';
     import ContentComponent from '../components/ContentComponent.vue';
+    import AIRVALLEY01 from "/src/assets/images/air_valley/01.jpg";
+    import AIRVALLEY02 from "/src/assets/images/air_valley/02.jpg";
+    import AIRVALLEY03 from "/src/assets/images/air_valley/03.jpg";
+    import AIRVALLEY04 from "/src/assets/images/air_valley/04.jpg";
 </script>
 
 
@@ -9,7 +13,7 @@
     <ContentComponent 
         title = "Dolina lotnicza" 
         :sources = "['https://dolinalotnicza.pl/','Dolinalotnicza.pl']" 
-        :images = "['/src/assets/images/air_valley/01.jpg','/src/assets/images/air_valley/02.jpg','/src/assets/images/air_valley/03.jpg','/src/assets/images/air_valley/04.jpg']"
+        :images = "[AIRVALLEY01,AIRVALLEY02,AIRVALLEY03,AIRVALLEY04]"
         :buttons_name = "['Strona główna','Izera','SMR','Easy Robots']"
         :buttons_link = "['/','/izera','/smr','/easyrobots']"
     >
