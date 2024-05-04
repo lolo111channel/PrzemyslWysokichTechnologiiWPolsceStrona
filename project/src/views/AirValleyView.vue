@@ -10,8 +10,8 @@
         title = "Dolina lotnicza" 
         :sources = "['https://dolinalotnicza.pl/','Dolinalotnicza.pl']" 
         :images = "['/src/assets/images/air_valley/01.jpg','/src/assets/images/air_valley/02.jpg','/src/assets/images/air_valley/03.jpg','/src/assets/images/air_valley/04.jpg']"
-        :buttons_name = "['Strona główna','Izera','Test2','Test3']"
-        :buttons_link = "['/','/izera','test','/']"
+        :buttons_name = "['Strona główna','Izera','SMR','Easy Robots']"
+        :buttons_link = "['/','/izera','/smr','/easyrobots']"
     >
         <p> Dolina lotnicza to stowarzyszenie firm zajmujące się przemysłem lotniczym należa do niej między innym: </p>
         <ul>

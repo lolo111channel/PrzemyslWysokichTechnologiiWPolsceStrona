@@ -10,8 +10,8 @@
         title = "Izera" 
         :sources = "['https://izera.pl/','Izera.pl']" 
         :images = "['/src/assets/images/izera/izera_02.jpg','/src/assets/images/izera/izera_03.jpg','/src/assets/images/izera/izera_04.jpg','/src/assets/images/izera/izera_05.jpg']"
-        :buttons_name = "['Strona główna','Dolina Lotnicza','Test2','Test3']"
-        :buttons_link = "['/','/dolinalotnicza','test','/']"
+        :buttons_name = "['Strona główna','Dolina Lotnicza','SMR','Easy Robots']"
+        :buttons_link = "['/','/dolinalotnicza','/smr','/easyrobots']"
     >
         <p> Izera to Polski samochód elektryczny, tworzony przez spółke ElectroMobility Poland S.A. </p><br/>
         <p> Samochód ten będzie korzystał z architektury SEA.</p><br/>

@@ -59,6 +59,11 @@ import { RouterLink } from 'vue-router';
     padding: 2vh;
 
     color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }  
 
 

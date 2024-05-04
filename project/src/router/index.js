@@ -34,6 +34,17 @@ const router = createRouter({
       name: 'dolinalotnicza',
 
       component: () => import('../views/AirValleyView.vue')
+    },
+    {
+      path: '/smr',
+      name: 'smr',
+
+      component: () => import('../views/SMRView.vue')
+    },
+    {
+      path: '/easyrobots',
+      name: 'easyrobots',
+      component: () => import('../views/EasyRobots.vue')
     }
   ]
 })

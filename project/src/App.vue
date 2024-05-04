@@ -1,31 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import MainLinkButton from './components/MainLinkButton.vue';
 </script>
 
 <template>
   <header>
-    <RouterView class = "router-view"/>
+    <RouterView class = "router-view" />
   </header>
 </template>
 
 <style scoped>
-
-
-
-.main-container {
-  width: auto;
-
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-
-  grid-template-areas: 
-    "test2 test4 test"
-    "test2 title test"
-    "test3 test3 test";
-
-}
 
 
 header {
@@ -34,8 +17,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
 
